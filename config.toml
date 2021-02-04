@@ -1,3 +1,19 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "aether"
+
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    title = "My New Hugo i18n Site"
+    languageName = "English"
+    weight = 1
+  [languages.gr]
+  contentDir = "content/greek"
+    title = "Η Νεα μου Ιστιοσελιδα"
+    languageName = "Greek"
+    weight = 2
+
+defaultContentLanguageInSubdir = true
